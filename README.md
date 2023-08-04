@@ -14,8 +14,8 @@ It provides the option to use Huffman Coding to enhance encoding/decoding speed 
 Command Guide:
 We have also provided a command guide for the convenience of users:
 
-'im InputImagePath': A mandatory parameter specifying the path of the input image.
-'-m': Enables the specification of the color mode, for example, RGB or YCbCr.
+'im InputImagePath': A mandatory parameter specifying the path of the input image. \n
+'-m': Enables the specification of the color mode, for example, RGB or YCbCr. \n
 '-huff': Activates Huffman Coding. This is not recommended due to its slow operation and incompatibility with the standard mode.
 '-c Quality': Defines the compression quality from 1 to 100. Absence of this parameter will bypass the compression process.
 '-d': Displays the input image. Automatically decompresses if the file has a .bqi extension.
